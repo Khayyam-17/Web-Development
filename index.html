@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tasks</title>
+
+<style>
+body{
+background-color:yellow;
+margin:0;
+font-family:Arial;
+}
+
+p{
+font-size:77pt;
+color:green;
+text-align:center;
+}
+
+#topnav{
+background:black;
+padding:15px;
+text-align:center;
+}
+
+#topnav a{
+color:white;
+margin:20px;
+text-decoration:none;
+font-size:18px;
+}
+
+.leftnav{
+position:fixed;
+left:0;
+top:60px;
+width:200px;
+height:100%;
+background:#333;
+padding-top:20px;
+}
+
+.leftnav a{
+display:block;
+color:white;
+padding:10px;
+text-decoration:none;
+}
+
+.leftnav a:hover{
+background:gray;
+}
+
+/* Content area */
+.content{
+margin-left:220px;
+padding:20px;
+}
+
+.form-container{
+width:300px;
+margin:auto;
+margin-top:80px;
+background:white;
+padding:20px;
+text-align:center;
+border-radius:10px;
+}
+
+input{
+width:90%;
+padding:8px;
+margin:8px;
+}
+
+button{
+padding:10px 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Top Navigation -->
+<div id="topnav">
+<a href="#">Home</a>
+<a href="#login">Login</a>
+<a href="#signup">Signup</a>
+</div>
+
+<!-- Left Navigation -->
+<div class="leftnav">
+<a href="#">Dashboard</a>
+<a href="#">Services</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</div>
+
+<div class="content">
+
+<p>Welcome</p>
+
+<!-- Login Form -->
+<div id="login" class="form-container">
+<h2>Login</h2>
+<form>
+<input type="text" placeholder="Username"><br>
+<input type="password" placeholder="Password"><br>
+<button type="submit">Login</button>
+</form>
+</div>
+
+<!-- Signup Form -->
+<div id="signup" class="form-container">
+<h2>Signup</h2>
+<form>
+<input type="text" placeholder="Name"><br>
+<input type="email" placeholder="Email"><br>
+<input type="password" placeholder="Password"><br>
+<button type="submit">Signup</button>
+</form>
+</div>
+
+</div>
+
+</body>
+</html>
