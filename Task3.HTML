@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Box Model and Display Property</title>
+
+<style>
+
+/* Page Styling */
+body{
+    font-family: Arial;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* BOX MODEL EXAMPLE */
+.box{
+    width: 300px;
+    padding: 20px;
+    border: 6px solid blue;
+    margin: 40px auto;
+    background-color: lightblue;
+}
+
+/* DISPLAY PROPERTY EXAMPLES */
+
+.block{
+    display: block;
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inline{
+    display: inline;
+    background-color: orange;
+    padding: 10px;
+}
+
+.inlineblock{
+    display: inline-block;
+    background-color: pink;
+    padding: 15px;
+    margin: 10px;
+}
+
+body{
+    font-family: Arial;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+/* BOX MODEL DEMO BOX */
+.box{
+    width: 300px;
+    padding: 20px;
+    border: 6px solid blue;
+    margin: 40px auto;
+    background-color: lightblue;
+}
+
+/* BOX MODEL DIAGRAM WITH CLEAR BORDERS */
+
+.margin{
+    border: 4px dashed red;
+    padding: 40px;
+    background-color: #ffe6e6;
+    display: inline-block;
+}
+
+.border{
+    border: 6px solid green;
+    padding: 30px;
+    background-color: #e6ffe6;
+}
+
+.padding{
+    border: 4px dotted orange;
+    padding: 25px;
+    background-color: #fff4cc;
+}
+
+.content{
+    border: 3px solid blue;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>CSS Box Model Example</h1>
+
+<div class="box">
+This box demonstrates margin, border, padding and content.
+</div>
+
+<h2>Box Model Diagram</h2>
+
+<div class="margin">
+Margin
+<div class="border">
+Border
+<div class="padding">
+Padding
+<div class="content">
+Content
+</div>
+</div>
+</div>
+</div>
+
+<h1>CSS Display Property</h1>
+
+<div class="block">Block Element (Takes full width)</div>
+
+<span class="inline">Inline</span>
+<span class="inline">Inline</span>
+
+<br><br>
+
+<div class="inlineblock">Inline-Block 1</div>
+<div class="inlineblock">Inline-Block 2</div>
+
+</body>
+</html>
